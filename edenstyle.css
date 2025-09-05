@@ -1,0 +1,76 @@
+body {
+    background-image: url("img7crop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    background-color: aliceblue;
+    padding: 1.5rem;
+    margin-bottom: 20%;
+    text-align: center;
+    max-width: 1010px;
+    margin: auto auto 30% auto;
+}
+a {
+    margin: 0 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 20%);
+    padding: 0.5rem 1rem;
+}
+a:active {
+    color: deeppink;
+    text-decoration: none;
+}
+main {
+    background-color: rgba(240, 248, 255, 70%);
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+h1 {
+    font-family: fantasy, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+h2, h5, p {
+    font-family: "Century Gothic", serif;
+}
+ul {
+    font-family: "Century Gothic", serif;
+    list-style-type: disc;
+}
+h5 {
+    margin-top: 0;
+}
+article {
+    border-style: double;
+    border-color: dimgray;
+    border-width: 2px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+aside p {
+    text-align: center;
+    line-height: 0.5em;
+}
+.break {
+    padding-bottom: 1.5rem;
+}
+footer {
+    background-color: aliceblue;
+    padding: 1rem;
+    max-width: 1032px;
+    margin: auto;
+}
+article img {
+    float: right;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+}
+article::after {
+    content: "";
+    clear: both;
+    display: block;
+}
